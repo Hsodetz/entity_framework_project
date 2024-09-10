@@ -1,0 +1,63 @@
+﻿@model IEnumerable<entityFrameworkProyect.Models.Category>
+@{
+    ViewData["Title"] = "Lista de categorías";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<div class="row">
+    <div class="col-4">
+        <h3>Lista de categorías</h3>
+    </div>
+
+    <div class="col-3">
+        <a asp-action="Create" class="btn btn-primary form-control">Crear categoría</a>
+    </div>
+
+    <div class="col-5">
+        <a asp-action="CreateMultipleTwo" class="btn btn-secondary form-control">Crear Multiple (2 categorías)</a>
+        <br />
+        <br />
+        <a asp-action="CreateMultipleFive" class="btn btn-secondary form-control">Crear Multiple (5 categorías)</a>
+        <br />
+        <br />
+        <a asp-action="CreateMultipleFromViewForm" class="btn btn-secondary form-control">Crear Multiple desde vista</a>
+        <br />
+        <br />
+        <a asp-action="DeleteMultipleTwo" class="btn btn-danger form-control">Borrar 2 categorias</a>
+        <br />
+        <br />
+        <a asp-action="DeleteMultipleFive" class="btn btn-danger form-control">Borrar 5 categorias</a>
+    </div>
+
+
+    <div>
+        @if (Model.Count() > 0)
+        {
+            <table class="table table-striped border">
+                <tr>
+                    <th>Nombre de categoría</th>
+                    <th>Fecha de Creación</th>
+                    <th>Estado</th>
+
+                    <th>Acción</th>
+                </tr>
+                @foreach (var category in Model)
+                {
+                    <tr>
+                        <td>@category.Name</td>
+                        <td>@category.CreatedAt</td>
+                        <td>@category.Active</td>
+
+                        <td>
+                            <a class="btn btn-primary text-white" asp-controller="Category" asp-action="Edit" asp-route-id="@category.Id">Editar</a>
+                            <a class="btn btn-danger text-white" asp-controller="Category" asp-action="Delete" asp-route-id="@category.Id">Borrar</a>
+                        </td>
+                    </tr>
+                }
+            </table>
+        }
+        else
+        {
+            <p>No hay categorías</p>
+        }
+    </div>

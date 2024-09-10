@@ -1,0 +1,80 @@
+﻿@model entityFrameworkProyect.ViewModels.ArticleLabelViewModel
+@{
+    ViewData["Title"] = "Administrar etiquetas";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<br />
+<h3 class="text-center">Administrar etiquetas para el artículo</h3>
+<div class="row">
+    <form method="post" asp-action="ManageTask">
+
+        <!--Importante para el método AdministrarEtiquetas-->
+        <input type="hidden" asp-for="Article.Id" />
+        <input type="hidden" asp-for="ArticleLabel.ArticleId" />
+
+
+        <div class="row">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="col-12 mt-4">
+                <div class="row">
+                    <div class="col-4">
+                        <label asp-for="Article.Titulo"></label>
+                    </div>
+                    <div class="col-8">
+                        <input asp-for="Article.Titulo" class="form-control" />
+                        <span asp-validation-for="Article.Titulo" class="text-danger"></span>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <div class="col-4">
+                        <label for="etiquetas">Etiquetas</label>
+                    </div>
+                    <div class="col-8">
+                        @Html.DropDownListFor(u => u.ArticleLabel.LabelId, Model.ListLabels, "--Seleccionar Etiquetas--",
+                        new { @class = "form-control" })
+                    </div>
+                </div>
+
+
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-3">
+                <a asp-action="Index">Volver a lista</a>
+            </div>
+            <div class="col-5 offset-4">
+                <button type="submit" class="btn btn-primary form-control">Asociar Etiquetas a Artículo</button>
+                &nbsp;
+            </div>
+        </div>
+    </form>
+</div>
+
+<div class="row">
+    <div class="col-12">
+        <form method="post" action="DeleteLabel">
+            <!--Importante para el método AdministrarEtiquetas-->
+            <input type="hidden" asp-for="@Model.Article.Id" />
+            <div class="row text-right">
+                <div class="col-12 text-right h4 text-primary">
+                    Etiquetas asociadas a este artículo
+                </div>
+            </div>
+            @foreach (var item in Model.ListArticleLabels)
+            {
+                <div class="row pb-2">
+                    <div class="col-8 text-right" style="font-size:24px;">@item.Label.Titulo</div>
+                    <div class="col-4">
+                        <button asp-action="DeleteLabel" type="submit" class="btn btn-danger form-control" asp-route-idLabel="@item.LabelId">Eliminar Etiqueta</button>
+                    </div>
+                </div>
+            }
+        </form>
+    </div>
+</div>
+
+
+

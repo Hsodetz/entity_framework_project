@@ -1,0 +1,105 @@
+is_global = true
+build_property.TargetFramework = net6.0
+build_property.TargetPlatformMinVersion = 
+build_property.UsingMicrosoftNETSdkWeb = true
+build_property.ProjectTypeGuids = 
+build_property.InvariantGlobalization = 
+build_property.PlatformNeutralAssembly = 
+build_property.EnforceExtendedAnalyzerRules = 
+build_property._SupportedPlatformList = Linux,macOS,Windows
+build_property.RootNamespace = entityFrameworkProyect
+build_property.RootNamespace = entityFrameworkProyect
+build_property.ProjectDir = /Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/entityFrameworkProyect/entityFrameworkProyect/
+build_property.RazorLangVersion = 6.0
+build_property.SupportLocalizedComponentNames = 
+build_property.GenerateRazorMetadataSourceChecksumAttributes = 
+build_property.MSBuildProjectDirectory = /Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/entityFrameworkProyect/entityFrameworkProyect
+build_property._RazorSourceGeneratorDebug = 
+
+[/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/entityFrameworkProyect/entityFrameworkProyect/Views/Article/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXJ0aWNsZS9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/entityFrameworkProyect/entityFrameworkProyect/Views/Article/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXJ0aWNsZS9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/entityFrameworkProyect/entityFrameworkProyect/Views/Article/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXJ0aWNsZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/entityFrameworkProyect/entityFrameworkProyect/Views/Article/ManageTask.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQXJ0aWNsZS9NYW5hZ2VUYXNrLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/entityFrameworkProyect/entityFrameworkProyect/Views/Category/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/entityFrameworkProyect/entityFrameworkProyect/Views/Category/CreateMultipleFromViewForm.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvQ3JlYXRlTXVsdGlwbGVGcm9tVmlld0Zvcm0uY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/entityFrameworkProyect/entityFrameworkProyect/Views/Category/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/entityFrameworkProyect/entityFrameworkProyect/Views/Category/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvQ2F0ZWdvcnkvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/entityFrameworkProyect/entityFrameworkProyect/Views/Home/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/entityFrameworkProyect/entityFrameworkProyect/Views/Home/Privacy.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvSG9tZS9Qcml2YWN5LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/entityFrameworkProyect/entityFrameworkProyect/Views/Label/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFiZWwvQ3JlYXRlLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/entityFrameworkProyect/entityFrameworkProyect/Views/Label/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFiZWwvRWRpdC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/entityFrameworkProyect/entityFrameworkProyect/Views/Label/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvTGFiZWwvSW5kZXguY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/entityFrameworkProyect/entityFrameworkProyect/Views/Shared/Error.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL0Vycm9yLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/entityFrameworkProyect/entityFrameworkProyect/Views/Shared/_ValidationScriptsPartial.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19WYWxpZGF0aW9uU2NyaXB0c1BhcnRpYWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/entityFrameworkProyect/entityFrameworkProyect/Views/User/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9DcmVhdGUuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/entityFrameworkProyect/entityFrameworkProyect/Views/User/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9EZXRhaWwuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/entityFrameworkProyect/entityFrameworkProyect/Views/User/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9FZGl0LmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/entityFrameworkProyect/entityFrameworkProyect/Views/User/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvVXNlci9JbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/entityFrameworkProyect/entityFrameworkProyect/Views/_ViewImports.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdJbXBvcnRzLmNzaHRtbA==
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/entityFrameworkProyect/entityFrameworkProyect/Views/_ViewStart.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvX1ZpZXdTdGFydC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[/Users/helmuthsodetz/Documents/cursoAspNetCoreUdemy/entityFrameworkProyect/entityFrameworkProyect/Views/Shared/_Layout.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3MvU2hhcmVkL19MYXlvdXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = b-l0lhtspaeg

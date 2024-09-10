@@ -1,0 +1,72 @@
+﻿@model entityFrameworkProyect.Models.User
+@{
+    ViewData["Title"] = "Detalle de usuario";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<br />
+<br />
+<h3 class="text-center">Detalle usuario</h3>
+<form method="post" asp-action="AddDetail">
+
+    <!--Importante para editar-->
+    <input type="hidden" asp-for="Id" />
+    <input type="hidden" asp-for="DetailUser.Id" />
+
+    <div class="row">
+        <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+        <div class="col-12 mt-4">
+            <div class="row">
+                <div class="col-4">
+                    <label asp-for="Name"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="Name" class="form-control" disabled />
+                    <span asp-validation-for="Name" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <label asp-for="DetailUser.Identification"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="DetailUser.Identification" class="form-control" />
+                    <span asp-validation-for="DetailUser.Identification" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <label asp-for="DetailUser.Sport"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="DetailUser.Sport" class="form-control" />
+                    <span asp-validation-for="DetailUser.Sport" class="text-danger"></span>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-4">
+                    <label asp-for="DetailUser.Pet"></label>
+                </div>
+                <div class="col-8">
+                    <input asp-for="DetailUser.Pet" class="form-control" />
+                    <span asp-validation-for="DetailUser.Pet" class="text-danger"></span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="row mt-4">
+        <div class="col-3">
+            <a asp-action="Index">Volver a lista</a>
+        </div>
+        <div class="col-5 offset-4">
+            <button type="submit" class="btn btn-primary form-control">Crear Detalle Usuario</button>
+            &nbsp;
+        </div>
+    </div>
+</form>
+
+
